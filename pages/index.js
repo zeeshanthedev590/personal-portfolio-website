@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <div>
-      <section class="flex flex-col-reverse justify-center m-20 text-center lg:flex-col-reverse sm:justify-center lg:text-center lg:items-center">
+      <section class="flex flex-col-reverse justify-center m-5 text-center lg:flex-row-reverse sm:justify-center lg:text-center lg:items-center">
         <div class="justify-center items-center flex flex-col">
           <h1 class="text-3xl sm:text-6xl">Full stack web developer</h1>
           <div class="flex flex-col sm:flex-row">
@@ -22,11 +22,13 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <img
-            class="object-contain sm:max-w-lg md:max-w-xl items-center justify-center lg:rounded-lg sm:items-center sm:text-center sm:justify-center"
-            src="/hero2.svg"
-            alt="hero img"
-          />
+          <center>
+            <img
+              class="object-contain sm:max-w-lg md:max-w-lg items-center text-center justify-center lg:rounded-lg"
+              src="/hero4.svg"
+              alt="hero img"
+            />
+          </center>
         </div>
       </section>
       <div class="bg-gray-100 p-5 m-0 rounded-lg sm:m-20 sm:rounded-none">
