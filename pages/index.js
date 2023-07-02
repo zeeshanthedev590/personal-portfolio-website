@@ -6,9 +6,12 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <div>
-      <section class="flex flex-col-reverse justify-center m-5 text-center lg:flex-row-reverse sm:justify-center lg:text-center lg:items-center">
-        <div class="justify-center items-center flex flex-col">
-          <h1 class="text-3xl sm:text-6xl">Full stack web developer</h1>
+      <section class="flex flex-col-reverse justify-center m-5 text-center lg:flex-row sm:justify-center lg:text-center lg:items-center">
+        <div class="justify-center items-center flex flex-col ">
+          <h1 class="text-4xl font-medium sm:text-6xl">
+            Hi i am Zeeshan Khalid
+          </h1>
+          <span class="text-lg sm:text-xl">Full stack web developer</span>
           <div class="flex flex-col sm:flex-row">
             <a href="#skills" class="p-5 my-2 mx-5 bg-indigo-50 rounded-lg">
               My Skills
@@ -16,22 +19,19 @@ export default function Home() {
             <a href="projects" class="p-5 my-2 mx-5 bg-indigo-50 rounded-lg">
               Projects
             </a>
-            <a href="contact" class="p-5 my-2 mx-5 bg-indigo-50 rounded-lg">
+            <a
+              href="mailto:zk0746155@gmail.com"
+              class="p-5 my-2 mx-5 bg-indigo-50 rounded-lg"
+            >
               Contact Me
             </a>
           </div>
         </div>
-        <div>
-          <center>
-            <img
-              class="object-contain sm:max-w-lg md:max-w-lg items-center text-center justify-center lg:rounded-lg"
-              src="/hero4.svg"
-              alt="hero img"
-            />
-          </center>
-        </div>
       </section>
-      <div class="bg-gray-100 p-5 m-0 rounded-lg sm:m-20 sm:rounded-none">
+      <div
+        id="skills"
+        class="bg-gray-100 p-5 m-0 rounded-sm sm:m-20 sm:rounded-2xl"
+      >
         <h1 class="text-center font-bold text-2xl sm:text-4xl">What I Do</h1>
 
         <div

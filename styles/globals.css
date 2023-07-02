@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 body {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
+  margin: 0;
+  padding: 0;
 }
 
 section {
