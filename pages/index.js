@@ -161,7 +161,7 @@ export default function Home() {
       <footer class="bg-gray-900">
         <div class="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8 lg:pt-24">
           <div class="text-center">
-            <h2 class="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-5xl">
+            <h2 class="text-3xl font-extrabold text-white sm:text-5xl">
               Wanna talk?
             </h2>
 
