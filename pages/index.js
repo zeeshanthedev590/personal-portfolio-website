@@ -166,7 +166,7 @@ export default function Home() {
             </h2>
 
             <a
-              href="mailto:zk0746155@gmail.com"
+              href="mailto:zeeshanthedev@gmail.com"
               class="mt-8 inline-block rounded-full border border-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
             >
               Contact me
